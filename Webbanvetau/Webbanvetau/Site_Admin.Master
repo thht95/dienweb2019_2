@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site_Admin.master.cs" Inherits="Webbanvetau.Site_Admin" %>
+
+<%@ Register src="Control/Fotder.ascx" tagname="Fotder" tagprefix="uc1" %>
+<%@ Register src="Control/Menu_admin.ascx" tagname="Menu_admin" tagprefix="uc2" %>
+<%@ Register src="Control/Menu_trai.ascx" tagname="Menu_trai" tagprefix="uc3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>Trang quản trị</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        *{margin:0px;}
+        body {margin: 0 auto;}
+        #wapper{width:1100px;margin:auto;padding-top:20px;}
+        #banner{width:100%;background:#4b6c9e;height:70px;float:left;-moz-border-radius:10px 10px 0px 0px;-webkit-border-radius:10px 10px 0px 0px;border-radius:10px 10px 0px 0px;}
+        #tieude{width:auto;height:auto;padding:30px 0px 0px 50px;color:White;font-weight:bold;}
+        #menu{width:100%;height:27px;background:url(../images/bg_menu_top.jpg) repeat left center;float:left;}
+        .submenu{width:auto;height:100%;margin:0px 5px 0px 5px;text-align:center;float:left;}
+        .submenu a{text-decoration:none; color:White; font-weight:bold;}
+        .submenu a:visited{text-decoration:underline; color:White; font-weight:bold;}
+        .submenu a:hover{text-decoration:none; color:Orange;font-weight:bold;}
+        .submenuright {float:left;font-weight:bold;color:White;margin:0px 0px 0px 2px;
+        }
+        .submenuright a{text-decoration:none;color:White;font-weight:bold;float:right;}
+        .submenuright a:visited{text-decoration:none;color:White;font-weight:bold;float:right;}
+        .submenuright a:hover{text-decoration:none;color:Orange;font-weight:bold;float:right;}
+        .gach{height:100%;float:left;font-weight:bold;color:White}
+        .menuleft{width:100%;background-color:#a6d9fa;border:1px dotted #3d8cbe;}
+        .menuleft p{text-align:center;color:Green;font-weight:bold;}
+        .menuleft a{text-decoration:none;color:#1bb169;background:url(../images/head.jpg) no-repeat 10px center;padding:10px 0px 10px 30px; }
+        .menuleft a:visited{text-decoration:none;color:#b1811b;background:url(../images/head.jpg) no-repeat 10px center;padding:10px 0px 10px 30px;}
+        .menuleft a:hover{text-decoration:none;color:#b1811b;background:url(../images/head.jpg) no-repeat 10px center;padding:10px 0px 10px 30px;}
+        #left{width:200px;float:left;padding-top:10px;}
+        #right{width: 870px;float: left;padding-left: 4px;}
+        #footer{width:100%;height:50px;padding-top:20px;text-align:center;clear:both;}
+        .designer{color:Green;}
+        #main{width:100%}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wapper">
+            <div id="banner">
+                <div id="tieude">
+                    Trang Quản Trị
+                </div>
+                <asp:Label ID="Label1" runat="server" CssClass="submenuright" Height="59px" Width="157px"></asp:Label>
+            </div>
+            <div id="main" style="display: inline-block; background: #F1F4F8;">
+                <div id="left">
+                    <uc2:Menu_admin ID="Menu_admin1" runat="server" />
+                </div>
+                <div id="right">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                </div>
+              </div>
+            <div id="">
+                <uc1:Fotder ID="Fotder" runat="server" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

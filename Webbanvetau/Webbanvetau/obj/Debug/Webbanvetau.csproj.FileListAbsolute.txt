@@ -1,0 +1,17 @@
+c:\users\d\documents\visual studio 2013\Projects\Webbanvetau\Webbanvetau\bin\Webbanvetau.dll.config
+c:\users\d\documents\visual studio 2013\Projects\Webbanvetau\Webbanvetau\bin\Webbanvetau.dll
+c:\users\d\documents\visual studio 2013\Projects\Webbanvetau\Webbanvetau\bin\Webbanvetau.pdb
+c:\users\d\documents\visual studio 2013\Projects\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.dll
+c:\users\d\documents\visual studio 2013\Projects\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.pdb
+C:\Users\D\Documents\Visual Studio 2013\Projects\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.csprojResolveAssemblyReference.cache
+C:\Users\MrBully\Desktop\Webbanvetau\Webbanvetau\bin\Webbanvetau.dll
+C:\Users\MrBully\Desktop\Webbanvetau\Webbanvetau\bin\Webbanvetau.pdb
+C:\Users\MrBully\Desktop\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.csprojResolveAssemblyReference.cache
+C:\Users\MrBully\Desktop\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.dll
+C:\Users\MrBully\Desktop\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.pdb
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\bin\Webbanvetau.dll.config
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\bin\Webbanvetau.dll
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\bin\Webbanvetau.pdb
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.csprojResolveAssemblyReference.cache
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.dll
+D:\Zz\baitapWeb\baitapWeb\Webbanvetau\Webbanvetau\obj\Debug\Webbanvetau.pdb

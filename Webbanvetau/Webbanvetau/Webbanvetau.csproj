@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34B84DE2-ED1B-4169-B612-280E8EFB7415}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Webbanvetau</RootNamespace>
+    <AssemblyName>Webbanvetau</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin1.aspx" />
+    <Content Include="Admin_banggia.aspx" />
+    <Content Include="Admin_chuyentau.aspx" />
+    <Content Include="Admin_ga.aspx" />
+    <Content Include="Admin_ghe.aspx" />
+    <Content Include="Admin_kh.aspx" />
+    <Content Include="Admin_lk.aspx" />
+    <Content Include="Admin_ltoa.aspx" />
+    <Content Include="Admin_taikhoan.aspx" />
+    <Content Include="Admin_tau.aspx" />
+    <Content Include="Admin_tinh.aspx" />
+    <Content Include="Admin_toa.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="Anh\button_login.png" />
+    <Content Include="Anh\footer-img.png" />
+    <Content Include="Anh\icon-h3.png" />
+    <Content Include="Anh\menu-secondary-r.png" />
+    <Content Include="Anh\sua.png" />
+    <Content Include="Anh\thanhtoan.png" />
+    <Content Include="Anh\themhangvaogio.jpg" />
+    <Content Include="Anh\tich.jpg" />
+    <Content Include="Anh\widget-list.png" />
+    <Content Include="Anh\xoa.png" />
+    <Content Include="Anh\xoahangtronggio.jpg" />
+    <Content Include="Control\Fotder.ascx" />
+    <Content Include="Control\Menu.ascx" />
+    <Content Include="Control\Menu_admin.ascx" />
+    <Content Include="Control\Menu_trai.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="mycss\basicadmin.css" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin1.aspx.cs">
+      <DependentUpon>Admin1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin1.aspx.designer.cs">
+      <DependentUpon>Admin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_banggia.aspx.cs">
+      <DependentUpon>Admin_banggia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_banggia.aspx.designer.cs">
+      <DependentUpon>Admin_banggia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_chuyentau.aspx.cs">
+      <DependentUpon>Admin_chuyentau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_chuyentau.aspx.designer.cs">
+      <DependentUpon>Admin_chuyentau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_ga.aspx.cs">
+      <DependentUpon>Admin_ga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_ga.aspx.designer.cs">
+      <DependentUpon>Admin_ga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_ghe.aspx.cs">
+      <DependentUpon>Admin_ghe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_ghe.aspx.designer.cs">
+      <DependentUpon>Admin_ghe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_kh.aspx.cs">
+      <DependentUpon>Admin_kh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_kh.aspx.designer.cs">
+      <DependentUpon>Admin_kh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_lk.aspx.cs">
+      <DependentUpon>Admin_lk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_lk.aspx.designer.cs">
+      <DependentUpon>Admin_lk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_ltoa.aspx.cs">
+      <DependentUpon>Admin_ltoa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_ltoa.aspx.designer.cs">
+      <DependentUpon>Admin_ltoa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_taikhoan.aspx.cs">
+      <DependentUpon>Admin_taikhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_taikhoan.aspx.designer.cs">
+      <DependentUpon>Admin_taikhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_tau.aspx.cs">
+      <DependentUpon>Admin_tau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_tau.aspx.designer.cs">
+      <DependentUpon>Admin_tau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_tinh.aspx.cs">
+      <DependentUpon>Admin_tinh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_tinh.aspx.designer.cs">
+      <DependentUpon>Admin_tinh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_toa.aspx.cs">
+      <DependentUpon>Admin_toa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_toa.aspx.designer.cs">
+      <DependentUpon>Admin_toa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\myfunction.cs" />
+    <Compile Include="Control\Fotder.ascx.cs">
+      <DependentUpon>Fotder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Fotder.ascx.designer.cs">
+      <DependentUpon>Fotder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Menu_admin.ascx.cs">
+      <DependentUpon>Menu_admin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Menu_admin.ascx.designer.cs">
+      <DependentUpon>Menu_admin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Menu_trai.ascx.cs">
+      <DependentUpon>Menu_trai.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Menu_trai.ascx.designer.cs">
+      <DependentUpon>Menu_trai.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site_Admin.Master.cs">
+      <DependentUpon>Site_Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_Admin.Master.designer.cs">
+      <DependentUpon>Site_Admin.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site_Admin.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2773</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2773/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
