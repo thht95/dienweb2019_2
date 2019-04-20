@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                     <td style="padding-left:20px" align="right" class="dn">
-                        Tên Đăng Nhập :
+                        Username :
                     </td>
                     <td>
                         <asp:TextBox ID="txtdangnhap" runat="server"></asp:TextBox>
