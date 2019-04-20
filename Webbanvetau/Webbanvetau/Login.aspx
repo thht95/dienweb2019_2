@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                     <td style="padding-left:20px" align="right" class="dn">
-                        Tên đăng nhập :
+                        User :
                     </td>
                     <td>
                         <asp:TextBox ID="txtdangnhap" runat="server"></asp:TextBox>
@@ -33,7 +33,7 @@
                 </tr>
                 <tr>
                     <td align="right" class="dn">
-                        Mật Khẩu :
+                        Pass :
                     </td>
                     <td>
                         <asp:TextBox ID="txtmatkhau" runat="server" TextMode="Password"></asp:TextBox>
